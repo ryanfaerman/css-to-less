@@ -21,7 +21,14 @@ fs.readFile sourceFile, 'utf8', (err, data) ->
   css = css.split /[\{\}]/
 
   rules = {}
-  
-  while rule = css.splice 0, 2
-    puts rule
+
+  n = 0
+  while n < css.length
+    selector = css[n]
+    properties = css[n+1]
+    rules[selector] = properties
+    n += 2
+
+  puts rules
+
 
