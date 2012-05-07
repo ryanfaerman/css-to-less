@@ -1,0 +1,110 @@
+
+#cuepoint-builder {
+  width: 620px;
+  margin: 0 auto;
+}
+
+#alert.error {
+  padding: 10px;
+  margin: 20px;
+  background: #9d261d;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid #000;
+}
+#timeLine {
+  height: 10px;
+  border: 1px solid #999;
+  position: relative;
+  margin: 20px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.formCol {
+  float: left;
+  width: 300px;
+}
+
+.formCol#controls {
+  width: 150px;
+}
+
+.slot {
+  background: blue;
+  height: 100%;
+  width: 10px;
+  position: absolute;
+}
+
+.slot.double {
+  width: 30px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+}
+
+fieldset select, 
+fieldset input, 
+fieldset .offset-slider, 
+fieldset button {
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+}
+
+
+fieldset select, 
+fieldset input {
+  height: 18px;
+}
+
+form fieldset select {
+  font-size: 20px;
+}
+
+.offset-slider .slider {
+  width: 100px;
+}
+
+button {
+  border: 0;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.75;
+  background: #049CDB;
+  font-size: 0.75em;
+  padding: 7px 12px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+button.add {
+  background: #46a546;
+}
+
+button.remove {
+  background: #9d261d;
+}
+
+#controls button {
+  width: 100px;
+}
+.wrap-main-content.with_sidebar {
+  text-align: center;
+}
+
+.wrap-main-content.with_sidebar h1 {
+  text-align: left;
+}
